@@ -42,7 +42,7 @@ body {
   main {
     
     place-self: center;
-    width: 700px;
+    width: 760px;
     
     grid-column: 1 / 2;
     padding: 1rem;
@@ -52,7 +52,7 @@ body {
     margin-top: -1px;
     border-radius: 15px 15px 0px 0px;
     background-color: rgb(73, 73, 216);
-    padding: 1rem;
+    padding: 5px;
   }
   .cards{
     display: flex;
