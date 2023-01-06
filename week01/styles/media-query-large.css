@@ -1,0 +1,30 @@
+main{
+    display: grid;
+    grid-template: auto / 1fr auto;
+    max-width: 600px;
+    }
+    header{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+h2{
+    color: blue;
+}
+section{
+    width: 300px;
+    border: 10px solid;
+}
+
+footer{
+    background-color: rgb(106, 106, 183);
+    padding: 2rem;
+    grid-column: 1 / 2;
+    margin-top: 20px;
+}
+@media (min-width: 300px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
