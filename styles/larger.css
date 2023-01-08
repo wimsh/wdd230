@@ -5,8 +5,8 @@ body {
     height: 100vh;
     grid-template:  auto 120px 1fr auto / 1fr auto auto;
     font-family: 'Lato', sans-serif, serif;
-    font-size: larger;
-    font-weight: bold;
+    font-size: medium;
+    
   }
   
   header {
