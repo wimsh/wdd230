@@ -1,4 +1,9 @@
-const options={weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: 'numeric'}
-let currentyear={year: 'numeric'}
-document.getElementById('currentyear').textContent=new Date().toLocaleDateString('en-US', currentyear);
-document.getElementById('lastmodified').textContent=new Date(document.lastModified).toLocaleDateString('en-US', options);
+var currentYear = new Date().getFullYear();
+
+// Set element with id year to current year
+document.getElementById("currentyear").innerHTML = currentYear;
+
+
+// Get Last Modified Date
+var lastModifiedDate = document.lastModified;
+document.getElementById("lastmodified").innerHTML = lastModifiedDate;
