@@ -11,11 +11,9 @@ const hambutton = document.querySelector('#menu');
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
 function myFunction() {
-    document.getElementById("main").style.backgroundColor = "black";
-      document.getElementById("main").style.color = "white";
-      document.linkColor = "white";
-    }
-function myFunction2() {
-    document.getElementById("main").style.backgroundColor = "white";
-      document.getElementById("main").style.color = "black";
+  const modeButton = document.querySelector("#darkmode");
+  const mainArea = document.querySelector("main");
+    modeButton.classList.toggle("dark");
+    mainArea.classList.toggle("dark");
+      
     }

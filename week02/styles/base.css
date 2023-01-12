@@ -112,6 +112,27 @@ body {
     max-width: 100%;
     
   }
+  main.dark,
+  main.dark a {
+      background-color: rgb(35, 35, 35);
+      color: white;
+  }
+  main.dark h2 {color: white;}
+  
+  #darkmode {
+      background-color: black;
+      color: white;
+      
+  
+  }
+  
+  #mode.dark {
+      background-color: white;
+      color: black;
+  }
+  
+
+
   #card-1 ul{
     list-style: none;
   }
