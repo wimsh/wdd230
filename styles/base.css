@@ -19,8 +19,6 @@ body {
     gap: 3rem;
     background: black;
     
-    padding: 5px
-    
   }
   
   header {
@@ -96,6 +94,7 @@ body {
 .responsive #menu::before {
 	content: "X";
   color: red;
+  
 }
 /* This is end of responsive css code*/
   
@@ -149,8 +148,8 @@ body {
 
   section p{
     padding-left: 20px;
-    padding-top: 12;
-    padding-bottom: 12 ;
+    padding-top: 12px;
+    padding-bottom: 12px ;
     
   }
   #card-1 a{
