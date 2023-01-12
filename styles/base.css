@@ -1,11 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-*{
-  margin:0;
-  padding: 0;
-}
+
 body {
-    
+    width: auto;
     font-family: 'Lato', sans-serif, serif;
     font-size: medium;
     
@@ -17,7 +14,7 @@ body {
     justify-content: right;
     gap: 3rem;
     background: black;
-    
+    width: auto;
   }
   
   header {
@@ -40,17 +37,15 @@ body {
  
   
   h2{
-    padding-top: 20px;
+    padding-top: 5px;
     text-align: center;
   }
   hr { 
     display: block;
     margin-bottom: 1.5em;
-    margin-top:10px;
-    margin-left: 70px;
     border-style: inset;
-    border-width:5px;
-    width: 89%;
+    border-width:3px;
+   
   } 
  
 /* this is responsive menu*/
@@ -107,7 +102,7 @@ body {
   }
   main {
     place-self: center;
-    max-width: 100%;
+    
     
   }
 
@@ -164,7 +159,7 @@ body {
   
   .cards{
     display: grid;
-    grid-template-columns: 50px auto auto 50px;
+    grid-template-columns: 50px 1fr 1fr 50px;
     justify-items: center;
     row-gap: 20px;
     column-gap: 20px;
@@ -175,7 +170,7 @@ body {
     grid-column: 2 / 3;
     grid-row: 1 / 3;
     height: auto;
-    width: 560px;
+    width: 100%;
     border: 1px solid;
     border-radius: 15px;
     box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
@@ -189,7 +184,7 @@ body {
     grid-row: 1 / 2;
     padding-bottom: 15px;
     height: auto;
-    width: 560px;
+    width: 100%;
     border: 1px solid;
     border-radius: 15px;
     box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
@@ -201,7 +196,7 @@ body {
     grid-row: 2 / 3;
     
     height: auto;
-    width: 560px;
+    width: 100%;
     border: 1px solid;
     border-radius: 15px;
     box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
