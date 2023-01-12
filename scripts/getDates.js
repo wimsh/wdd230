@@ -15,7 +15,7 @@ const hambutton = document.querySelector('#menu');
 // When clicked, the <ul class="navigation">'s class list toggle'
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
-function myFunction() {
+function darkModeToggle() {
     const mainArea = document.querySelector("main");
     mainArea.classList.toggle("dark");
   }
