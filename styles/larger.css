@@ -3,8 +3,6 @@
   
   main {
     
-    width: 400px;
-    grid-column: 1 / 2;
     padding: 1rem;
     
   }
@@ -26,7 +24,6 @@
       justify-content: center;
       gap: 1rem;
       background: black;
-      grid-column: 1 / 2;
       padding: 1rem
       
       
