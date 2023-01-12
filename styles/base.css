@@ -78,7 +78,7 @@ body {
 }
 #menu::before {
   content: "≡";
-  font-size: 2rem;
+  font-size: 3rem;
   margin-right: 10px;
   color: white;
  }
