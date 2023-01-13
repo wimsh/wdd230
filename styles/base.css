@@ -97,8 +97,9 @@ body {
     text-align: center;
     margin-top: -1px;
     border-radius: 15px 15px 0px 0px;
-    background-color: rgb(73, 73, 216);
+    background-color: rgb(27, 27, 112);
     padding: 5px;
+    color: white;
   }
   main {
     place-self: center;
