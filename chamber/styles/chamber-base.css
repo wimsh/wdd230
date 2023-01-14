@@ -42,7 +42,6 @@ body {
     width:600px;
     height: 400px;
     object-fit: fill;
-    border-radius: 15px;
     box-shadow: 12px 12px 2px 1px rgb(97, 89, 89);
   }
   .hero{
