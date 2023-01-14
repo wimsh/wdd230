@@ -39,6 +39,8 @@ body {
     text-decoration: none;
   }
   .hero-img{
+    width:600px;
+    height: 400px;
     object-fit: fill;
     box-shadow: 12px 12px 2px 1px rgb(97, 89, 89);
   }
@@ -148,11 +150,15 @@ body {
     grid-row: 1/5;
     background-color: blue;
   }
-#big-logo{
+#c-img{
   grid-column: 6/7;
   grid-row: 2/4;
 }
-
+#big-logo{
+  width: 500px;
+  height: 400px;
+}
+  
   
   footer {
     background: black;
